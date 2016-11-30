@@ -3,7 +3,8 @@
 树梅派使用的是：Xware_armel_v5te_glibc.tar.gz  
 
 #安装示例：  
- #!/bin/bash  
+ #!/bin/bash
+ 
 if [  -f /root/apps/xware/protal ] ; then  
          /root/apps/xware/protal -s   
          rm -rf /root/apps/xware  
